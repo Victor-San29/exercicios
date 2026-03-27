@@ -1,0 +1,36 @@
+body {
+ background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+th{
+    background-color: bisque;
+}
+
+.tabela_Zebra{
+ margin: auto;
+ align-items: center;
+ border: 20px solid white;
+ height: 300px;
+ width: 400px ;
+}
+.tabela_Zebra th {
+     border: 2px solid white;
+}
+
+.tabela_Zebra td{
+     border: 2px solid white;
+}
+
+.tabela_Zebra tbody tr:nth-child(3n+1){
+    background-color: rgb(255, 000, 000);
+}
+
+.tabela_Zebra tbody tr:nth-child(3n+2){
+    background-color: rgb(000, 255, 000);
+}
+
+.tabela_Zebra tbody tr:nth-child(3n+3){
+    background-color: rgb(000, 000, 255);
+}
